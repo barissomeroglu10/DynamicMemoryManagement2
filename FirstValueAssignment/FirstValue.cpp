@@ -28,6 +28,8 @@ int main()
 	// Call function
 	cout << "\nTotal = " << Total(FirstValue) << endl;
 
+	delete FirstValue;
+
 	return 0;
 }
 
